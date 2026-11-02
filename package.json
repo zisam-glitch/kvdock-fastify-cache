@@ -1,0 +1,17 @@
+{
+  "name": "kvdock-fastify-cache",
+  "version": "1.0.0",
+  "description": "Fastify high-throughput caching and distributed session starter powered by kvdock",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "dependencies": {
+    "fastify": "*",
+    "kvdock": "^0.2.1"
+  },
+  "keywords": ["kvdock", "kv", "cache", "storage", "kvdock-fastify-cache"],
+  "author": "zisam shaikh <zisamshaikh7@gmail.com>",
+  "license": "MIT"
+}
